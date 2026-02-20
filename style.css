@@ -262,6 +262,7 @@ nav.scrolled {
     margin-bottom: 0.5rem;
     background: var(--gradient-text);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -389,9 +390,11 @@ nav.scrolled {
     z-index: 3;
 }
 
-.icon-1 { top: 0; left: 50%; transform: translateX(-50%); color: #4b8bbe; }
-.icon-2 { bottom: 20%; right: -5%; color: #61dafb; }
-.icon-3 { bottom: 20%; left: -5%; color: #f7df1e; }
+.icon-1 { top: -5%; left: 50%; transform: translateX(-50%); font-size: 1.5rem; }
+.icon-2 { top: 25%; right: -10%; font-size: 1.5rem; }
+.icon-3 { bottom: 10%; right: 5%; font-size: 1.5rem; }
+.icon-4 { bottom: 10%; left: 5%; font-size: 1.5rem; }
+.icon-5 { top: 25%; left: -10%; font-size: 1.5rem; }
 
 /* ---------------
    Timeline (Experience & Education)
